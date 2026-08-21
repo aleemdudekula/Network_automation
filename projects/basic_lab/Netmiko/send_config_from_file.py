@@ -11,3 +11,4 @@ net_connect.enable()
 
 output = net_connect.send_config_from_file("cmds.txt")
 print(output)
+net_connect.disconnect()
