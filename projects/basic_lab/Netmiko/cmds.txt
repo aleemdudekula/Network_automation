@@ -1,8 +1,0 @@
-en
-config t
-int e6/0
-ip add 192.168.1.1 255.255.25.0
-no sh
-do wr
-exit
-show ip interface brief
