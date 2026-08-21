@@ -14,3 +14,4 @@ net_connect.enable()
 
 output = net_connect.send_command("show ip interface brief")
 print(output)
+net_connect.disconnect()
