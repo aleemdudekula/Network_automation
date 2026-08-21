@@ -12,3 +12,4 @@ net_connect.enable()
 output = net_connect.send_multiline(["show ip interface brief"],
                                     ["show running-config"])
 print(output)
+#output
