@@ -1,0 +1,12 @@
+en
+config t
+router ospf 110
+network ip wildcard area 0 (which area belongs to the device)
+do wr
+end
+
+show ip ospf interface
+show ip ospf neighbour
+show ip ospf database
+show ip ospf route
+show ospf summary
